@@ -1,45 +1,67 @@
-## PlainTasks Material Themes
+# PlainTasks Material Themes
 
-A collection of [PlainTasks](https://github.com/aziz/PlainTasks) themes for [Sublime Text](https://www.sublimetext.com/) following the aesthetics of the excellent [Material Theme](http://equinsuocha.io/material-theme/).  
+A collection of [PlainTasks](https://github.com/aziz/PlainTasks) themes for [Sublime Text](https://www.sublimetext.com/) following the aesthetics of the excellent [Material Theme](https://github.com/SublimeText/material-theme/).
 
-GitHub repository <https://github.com/Gregory-K/PlainTasks-Material-Themes>.  
+GitHub repo: <https://github.com/Gregory-K/PlainTasks-Material-Themes>.
 
-### Screenshots
+
+> The [ao mindori](https://github.com/Gregory-K/ao-mindori/) theme could replace the no longer maintained Material Theme.
+
+## Screenshots
 
 **Material Default**  
-![material default screenshot](./tasks-material-default.screenshot.png "material default screenshot")
+![material default screenshot](./screenshots/tasks-material-default.png "material default screenshot")
 
 **Material Palenight**  
-![material palenight screenshot](./tasks-material-palenight.screenshot.png "material palenight screenshot")
+![material palenight screenshot](./screenshots/tasks-material-palenight.png "material palenight screenshot")
 
 **Material Darker**  
-![material darker screenshot](./tasks-material-darker.screenshot.png "material darker screenshot")
+![material darker screenshot](./screenshots/tasks-material-darker.png "material darker screenshot")
 
 **Material Lighter**  
-![material lighter screenshot](./tasks-material-lighter.screenshot.png "material lighter screenshot")
+![material lighter screenshot](./screenshots/tasks-material-lighter.png "material lighter screenshot")
 
-### Requirements
 
-* Sublime Text
-* Material Theme
-* PlainTasks
+## Requirements
+
+- Sublime Text 4
+- [PlainTasks ST4 fork](https://github.com/Gregory-K/PlainTasks/), for **Sublime Text 4** (build 4213 or later) and Heading colours (H1-H4).
+- '[ao mindori](https://github.com/Gregory-K/ao-mindori/)' theme (optional, for a matching UI)
+- Material Theme (optional, for a matching UI -- no longer maintained)
+
+
+## Install
+
+- Open the Sublime Text Packages directory:  
+`Ctrl+Shift+P` (win) `Cmd+Shift+P` (mac) > `Preferences: Browse Packages`
+- Clone the repository there as `PlainTasks-Material-Theme`:  
+```
+git clone https://github.com/Gregory-K/PlainTasks-Material-Themes.git PlainTasks-Material-Theme
+```
 
 ### Apply
 
-* Copy the `*-tmTheme` files anywhere you like. Suggested location is the Sublime Text Packages directory under the `User` folder. Ctrl+Shift+P (win) Cmd+Shift+P (mac) > `Preferences: Browse Packages`
-* Edit your PlainTasks settings `Sublime Text menu > Preferences > Package Settings > PlainTasks > Settings - User`
-and enter the path to your preferred theme:
-  ```
-  {
-    "color_scheme": "Packages/User/tasks-material-default.hidden-tmTheme",
-    "font_size": 12,
-  }
-  ```
+Edit your PlainTasks settings and enter the path to your preferred theme.
 
-#### more
+```jsonc
+{
+  // Keep one uncommented:
+  "color_scheme": "Packages/PlainTasks-Material-Theme/Themes/tasks-material-default.hidden-tmTheme",
+  // "color_scheme": "Packages/PlainTasks-Material-Theme/Themes/tasks-material-darker.hidden-tmTheme",
+  // "color_scheme": "Packages/PlainTasks-Material-Theme/Themes/tasks-material-lighter.hidden-tmTheme",
+  // "color_scheme": "Packages/PlainTasks-Material-Theme/Themes/tasks-material-palenight.hidden-tmTheme",
+}
+```
 
-Sublime Text [Package Control](https://packagecontrol.io/docs)
 
-### License
+## License
 
-These files are under the MIT license. You can find the complete document here: [LICENSE](https://github.com/Gregory-K/PlainTasks-Material-Themes/blob/master/LICENSE).
+MIT License
+
+Copyright (c) 2017-2026 Gregory.K
+
+Based on the "tasks-eighties-dark" scheme from PlainTasks,
+Copyright (c) 2012-2013 Allen Bargi, MIT License.
+
+These files are under the MIT license.  
+You can find the complete document here: [License.txt](License.txt).
