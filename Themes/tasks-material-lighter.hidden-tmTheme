@@ -16,12 +16,17 @@ PlainTasks ST4 Fork: https://github.com/Gregory-K/PlainTasks/
 			<dict>
 				<key>settings</key>
 				<dict>
-					<key>background</key><string>#FAFAFA</string>
-					<key>caret</key><string>#8E8875</string>
 					<key>foreground</key><string>#8E8875</string>
+					<key>background</key><string>#FAFAFA</string>
+					<key>caret</key><string>#C78A12</string>
+					<key>block_caret</key><string>#C78A1233</string>
 					<key>invisibles</key><string>#EAE3C9</string>
 					<key>lineHighlight</key><string>#EBEDEE</string>
 					<key>selection</key><string>#DBEEEC</string>
+					<key>selection_border</key><string>#80CBC4</string>
+					<key>inactive_selection</key><string>#DBEEEC</string>
+					<key>inactive_selection_border</key><string>#00000000</string>
+					<key>bracket_contents_options</key><string>stippled_underline</string>
 					<key>popupCss</key>
 					<string><![CDATA[
 						html, body {color: #8E8875; background-color: #FAFAFA}
@@ -124,7 +129,7 @@ PlainTasks ST4 Fork: https://github.com/Gregory-K/PlainTasks/
 				<dict>
 					<key>foreground</key><string>#90A4AE</string>
 					<key>background</key><string>#00000010</string>
-					<key>fontStyle</key><string>bold underline</string>
+					<key>fontStyle</key><string>bold</string>
 				</dict>
 			</dict>
 			<dict>

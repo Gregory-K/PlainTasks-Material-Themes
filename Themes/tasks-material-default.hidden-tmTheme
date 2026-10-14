@@ -138,7 +138,6 @@ PlainTasks ST4 Fork: https://github.com/Gregory-K/PlainTasks/
 				<dict>
 					<key>foreground</key><string>#e7e7e7</string>
 					<key>background</key><string>#00000010</string>
-					<!-- <key>fontStyle</key><string>bold underline</string> -->
 					<key>fontStyle</key><string>bold</string>
 				</dict>
 			</dict>
