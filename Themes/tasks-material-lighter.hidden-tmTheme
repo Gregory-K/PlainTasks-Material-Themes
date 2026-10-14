@@ -2,11 +2,13 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <!--
 Sublime Text - Material Theme [lighter] for PlainTasks
-GitHub repository: https://github.com/Gregory-K/PlainTasks-Material-Themes
+ver. 2.0.191015
+GitHub repo:         https://github.com/Gregory-K/PlainTasks-Material-Themes
+PlainTasks ST4 Fork: https://github.com/Gregory-K/PlainTasks/
+ao mindori - theme:  https://github.com/Gregory-K/ao-mindori/
 
 Material Theme: http://equinsuocha.io/material-theme/#/lighter
-PlainTasks: https://github.com/aziz/PlainTasks
-PlainTasks ST4 Fork: https://github.com/Gregory-K/PlainTasks/
+PlainTasks:     https://github.com/aziz/PlainTasks
 -->
 <plist version="1.0">
 	<dict>

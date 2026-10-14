@@ -4,6 +4,9 @@ A collection of [PlainTasks](https://github.com/aziz/PlainTasks) themes for [Sub
 
 GitHub repo: <https://github.com/Gregory-K/PlainTasks-Material-Themes>.
 
+Version: 2.0.191015
+
+> '191015': dated 2019-10-15, the last of the 2018-19 changes, which were never published until now.
 
 > The [ao mindori](https://github.com/Gregory-K/ao-mindori/) theme could replace the no longer maintained Material Theme.
 
