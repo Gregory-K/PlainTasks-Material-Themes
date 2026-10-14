@@ -6,6 +6,7 @@ GitHub repository: https://github.com/Gregory-K/PlainTasks-Material-Themes
 
 Material Theme: http://equinsuocha.io/material-theme/#/default
 PlainTasks: https://github.com/aziz/PlainTasks
+PlainTasks ST4 Fork: https://github.com/Gregory-K/PlainTasks/
 -->
 <plist version="1.0">
 	<dict>
@@ -15,19 +16,26 @@ PlainTasks: https://github.com/aziz/PlainTasks
 			<dict>
 				<key>settings</key>
 				<dict>
+					<key>foreground</key><string>#D3D0C8</string>
 					<key>background</key><string>#263238</string>
-					<key>caret</key><string>#d3d0c8</string>
-					<key>foreground</key><string>#d3d0c8</string>
-					<key>invisibles</key><string>#EAE3C9</string>
-					<key>lineHighlight</key><string>#1A2227</string>
-					<key>selection</key><string>#1A2227</string>
+					<key>caret</key><string>#FAC761</string>
+					<key>block_caret</key><string>#FAC76133</string>
+					<key>invisibles</key><string>#446273</string>
+					<key>findHighlightForeground</key><string>#1D262A</string>
+					<key>lineHighlight</key><string>#1D262A</string>
+					<key>selection</key><string>#1D262A</string>
+					<key>selection_border</key><string>#397274</string>
+					<key>inactive_selection</key><string>#1D262A</string>
+					<key>inactive_selection_border</key><string>#00000000</string>
+					<key>bracket_contents_options</key><string>stippled_underline</string>
 					<key>popupCss</key>
 					<string><![CDATA[
-						html, body {color: #d3d0c8; background-color: #263238}
+						html, body {color: #D3D0C8; background-color: #263238}
 						a {color: #9ABAF3;}
 					]]></string>
 				</dict>
 			</dict>
+
 			<dict>
 				<key>name</key><string>Comment</string>
 				<key>scope</key><string>comment</string>
@@ -35,6 +43,7 @@ PlainTasks: https://github.com/aziz/PlainTasks
 				<dict>
 					<key>fontStyle</key><string>normal</string>
 					<key>foreground</key><string>#7F7E75</string>
+					<!-- <key>foreground</key><string>#577D8B</string> -->
 				</dict>
 			</dict>
 			<dict>
@@ -52,7 +61,8 @@ PlainTasks: https://github.com/aziz/PlainTasks
 				<key>scope</key><string>notes.todo</string>
 				<key>settings</key>
 				<dict>
-					<key>foreground</key><string>#666666</string>
+					<!-- <key>foreground</key><string>#666666</string> -->
+					<key>foreground</key><string>#777777</string>
 				</dict>
 			</dict>
 			<dict>
@@ -78,7 +88,10 @@ PlainTasks: https://github.com/aziz/PlainTasks
 				<key>settings</key>
 				<dict>
 					<!-- <key>foreground</key><string>#446C82</string> -->
-					<key>foreground</key><string>#78909C</string>
+					<!-- <key>foreground</key><string>#78909C</string> -->
+					<!-- <key>foreground</key><string>#64FFDA</string> -->
+					<!-- <key>foreground</key><string>#FFD800</string> -->
+					<key>foreground</key><string>#FFD460</string>
 					<key>fontStyle</key><string>bold</string>
 				</dict>
 			</dict>
@@ -123,9 +136,10 @@ PlainTasks: https://github.com/aziz/PlainTasks
 				<key>scope</key><string>keyword</string>
 				<key>settings</key>
 				<dict>
-					<key>foreground</key><string>#eeeeee</string>
+					<key>foreground</key><string>#e7e7e7</string>
 					<key>background</key><string>#00000010</string>
-					<key>fontStyle</key><string>bold underline</string>
+					<!-- <key>fontStyle</key><string>bold underline</string> -->
+					<key>fontStyle</key><string>bold</string>
 				</dict>
 			</dict>
 			<dict>
@@ -174,6 +188,7 @@ PlainTasks: https://github.com/aziz/PlainTasks
 				<key>scope</key><string>todo.bold</string>
 				<key>settings</key>
 				<dict>
+					<key>foreground</key><string>#dddddd</string>
 					<key>fontStyle</key><string>bold</string>
 				</dict>
 			</dict>
@@ -390,9 +405,9 @@ PlainTasks: https://github.com/aziz/PlainTasks
 				<key>settings</key>
 				<dict>
 					<key>background</key>
-					<string>#263238</string>
+					<string>#1A2227</string>
 					<key>foreground</key>
-					<string>#dddddd</string>
+					<string>#7F7E75</string>
 					<key>fontStyle</key>
 					<string>bold</string>
 				</dict>
@@ -410,6 +425,84 @@ PlainTasks: https://github.com/aziz/PlainTasks
 					<string>#FE4842</string>
 					<key>fontStyle</key>
 					<string>bold</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>H1 Heading</string>
+				<key>scope</key>
+				<string>punctuation.definition.heading.1.todo</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#F96262</string>
+					<key>fontStyle</key>
+					<string>bold</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>H2 Heading</string>
+				<key>scope</key>
+				<string>punctuation.definition.heading.2.todo</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#F97B58</string>
+					<key>fontStyle</key>
+					<string>bold</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>H3 Heading</string>
+				<key>scope</key>
+				<string>punctuation.definition.heading.3.todo</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#EE932B</string>
+					<key>fontStyle</key>
+					<string>bold</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>H4 Heading</string>
+				<key>scope</key>
+				<string>markup.heading.4.todo</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#99C794</string>
+					<key>fontStyle</key>
+					<string>bold</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Header Text</string>
+				<key>scope</key>
+				<string>entity.name.section.1.todo, entity.name.section.2.todo</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#788781</string>
+					<key>fontStyle</key>
+					<string>bold</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Header Text</string>
+				<key>scope</key>
+				<string>entity.name.section.3.todo, entity.name.section.4.todo</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#788781</string>
+					<key>fontStyle</key>
+					<string>normal</string>
 				</dict>
 			</dict>
 		</array>

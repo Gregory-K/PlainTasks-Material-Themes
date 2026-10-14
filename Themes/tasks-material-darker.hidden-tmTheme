@@ -6,6 +6,7 @@ GitHub repository: https://github.com/Gregory-K/PlainTasks-Material-Themes
 
 Material Theme: http://equinsuocha.io/material-theme/#/darker
 PlainTasks: https://github.com/aziz/PlainTasks
+PlainTasks ST4 Fork: https://github.com/Gregory-K/PlainTasks/
 -->
 <plist version="1.0">
 	<dict>
@@ -410,6 +411,84 @@ PlainTasks: https://github.com/aziz/PlainTasks
 					<string>#FE4842</string>
 					<key>fontStyle</key>
 					<string>bold</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>H1 Heading</string>
+				<key>scope</key>
+				<string>punctuation.definition.heading.1.todo</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#F96262</string>
+					<key>fontStyle</key>
+					<string>bold</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>H2 Heading</string>
+				<key>scope</key>
+				<string>punctuation.definition.heading.2.todo</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#F97B58</string>
+					<key>fontStyle</key>
+					<string>bold</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>H3 Heading</string>
+				<key>scope</key>
+				<string>punctuation.definition.heading.3.todo</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#EE932B</string>
+					<key>fontStyle</key>
+					<string>bold</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>H4 Heading</string>
+				<key>scope</key>
+				<string>markup.heading.4.todo</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#99C794</string>
+					<key>fontStyle</key>
+					<string>bold</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Header Text</string>
+				<key>scope</key>
+				<string>entity.name.section.1.todo, entity.name.section.2.todo</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#788781</string>
+					<key>fontStyle</key>
+					<string>bold</string>
+				</dict>
+			</dict>
+			<dict>
+				<key>name</key>
+				<string>Header Text</string>
+				<key>scope</key>
+				<string>entity.name.section.3.todo, entity.name.section.4.todo</string>
+				<key>settings</key>
+				<dict>
+					<key>foreground</key>
+					<string>#788781</string>
+					<key>fontStyle</key>
+					<string>normal</string>
 				</dict>
 			</dict>
 		</array>
